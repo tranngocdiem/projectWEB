@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nội thất</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div>
+        <div class="hide-content-1" aria-hidden="true">
+          <nav class="sidebar">
+
+            <div class="menu">
+              <a href="">
+                <img class="logo" src="image/logo.png" style="width: 50px;height: 50px;" alt="" id="logo"/>
+              </a>
+
+              <ul>
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Dịch vụ</a></li>
+                <li><a href="">Sản phẩm</a></li>
+                <li><a href="">Liên hệ</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Trợ giúp </a></li>
+              </ul>
+              <ul class="social-icon">
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="">
+          <div class="row1">
+
+            <div class="menu-icon">
+              <span class="fa fa-bars fa-2x"></span>                 
+            </div>
+            
+            
+            <div class="backgrSearch">
+              <form class="mainForm">
+
+                <button class="btn-select">
+                  <select>
+                    <option>All</option>
+                  </select>
+                </button>
+                
+                <input type ="text" name = "search" placeholder = "Search">
+                <button class="btn-search"><i class="fas fa-search"></i></button>
+                
+              </form>
+              
+
+            </div>
+            <div>
+              <ul class="cart-icon">
+                <li><a href="" class="fas fa-shopping-cart""><i>Cart</i></a></li>
+                <li><a href="" class="fas fa-cart-arrow-down"><i>Reorder Items</i></a></li>
+                <li class="icon3"><a href="" class="fas fa-sign-in-alt"><i>Sign In</i></a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <nav class="row2">
+          <div class="col-md-12">
+            <h1 class="m-b-20"><strong>Welcome to our services</strong></h1>
+            <p>
+              <a class="btn btn1" href="#">Get Started</a>
+              <a class="btn btn2 btn-outline-new-white" href="#">Learn More</a>
+            </p>
+          </div>
+        </nav>
+      </div>
+
+    </header>
+  </div>
+</div>
+<main role="main">
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" src="image/album1.jpg" alt="Card image cap" width="300" height="200" >
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 box-shadow">
+            <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>        
+    </div>
+  </div>
+</div>
+</main>
+
+
+
+<script type="text/javascript">
+
+      // Menu-toggle button
+
+
+      $(document).ready(function(){
+        $(".menu-icon").click( function(){
+          $(".menu").toggleClass("showing");
+          $(".row1").toggleClass("active");
+
+
+        });
+        //toggle class sẽ chuyển tắt nếu gọi nó 1 lần nữa
+        $( ".menu" ).mouseleave(function() {
+          $(".menu").toggleClass("showing");
+          $(".row1").toggleClass("active");
+          
+        });
+
+      });
+      
+      
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+          $(".row1").addClass("black");
+          
+        }
+
+        else {
+          $(".row1").removeClass("black");
+        }
+      })
+
+
+    </script>
+
+  </body>
+  </html>
+
+
+  
