@@ -152,10 +152,7 @@ header {
 	color: #fff;
 	
 }
-.cart-icon :hover
-{
-	background: #262626;
-}
+
 .cart-icon li i 
 {
 	display: block;
